@@ -8,7 +8,7 @@ import (
 )
 
 func example() {
-	addr, _ := net.ResolveTCPAddr("tcp", "192.168.0.105:8080")
+	addr, _ := net.ResolveTCPAddr("tcp", "192.168.0.104:8080")
 	conn, err := net.DialTCP("tcp", nil, addr)
 	if err != nil {
 		log.Error(err)
