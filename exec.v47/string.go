@@ -1,4 +1,4 @@
-package exec_v47
+package main
 
 import (
 	"reflect"
